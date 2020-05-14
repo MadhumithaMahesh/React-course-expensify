@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return an object from ExpenseListItem 1`] = `
+<div>
+  <Link
+    replace={false}
+    to="/edit/123"
+  >
+    <h3>
+      gum
+    </h3>
+  </Link>
+  <p>
+    10
+     - 
+  </p>
+</div>
+`;
