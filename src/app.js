@@ -9,6 +9,7 @@ import {addExpense} from '../src/actions/expenses'
 import{setTextFilter} from '../src/actions/filters'
 import configureStore from '../src/store/configureStore'
 import getVisibleExpenses from '../src/selectors/expenses'
+import './firebase/firebase'
 
 
 const store = configureStore()
