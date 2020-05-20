@@ -5,4 +5,4 @@ import Dotenv from 'dotenv'
 Enzyme.configure({
     adapter:new Adapter()
 })
-Dotenv.config({path:'.env.test'})
+// Dotenv.config({path:'.env.test'})
