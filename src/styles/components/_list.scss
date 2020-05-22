@@ -1,0 +1,44 @@
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    background: lightgray;
+    border: 1px solid darken($color: lightgray, $amount: 1);
+    padding: $s-size;
+}
+.list-item
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    padding: $s-size;
+    color:black;
+    border: 1px solid lightgray;
+    border-top: none;
+}
+.list-item:hover{
+    background:#c2c2a3;
+}
+.list-item_title{
+    word-break: break-all;
+}
+
+.list-item_subtitle{
+    font-size: 1.4rem;
+}
+.list-item_data{
+    padding-left: $s-size;
+}
+.list_message{
+    font-size: 1.8rem;
+    font-weight: 600;
+    justify-content: space-around;
+    padding: $s-size;
+    color: darken($color: gray, $amount: 0.8); 
+}
+.list_message:hover{
+    background: none;
+}
+.list-body{
+    margin-bottom: $m-size;
+}

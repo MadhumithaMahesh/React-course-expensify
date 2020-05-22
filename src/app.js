@@ -10,6 +10,7 @@ import{login,logout} from '../src/actions/auth'
 import configureStore from '../src/store/configureStore'
 import getVisibleExpenses from '../src/selectors/expenses'
 import {firebase} from './firebase/firebase'
+import LoadingPage from './components/LoadingPage'
 
 const store = configureStore()
 let hasRendered = false
@@ -54,6 +55,6 @@ const jsx = (
 </Provider>
 
 )
-ReactDOM.render(<p>Loading</p>, document.getElementById('app'));
+ReactDOM.render(<LoadingPage></LoadingPage>, document.getElementById('app'));
 
 
